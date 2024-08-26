@@ -104,14 +104,14 @@ const Technologies = () => {
           <SiC className="text-7xl text-white-500" />
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           variants={iconVariants(7)}
           initial="initial"
           animate="animate"
           className="rounded-2xl boder bg-blue-800 p-4"
         >
           <SiCplusplus className="text-7xl text-white-500" />
-        </motion.div>
+        </motion.div> */}
 
         <motion.div
           variants={iconVariants(5.5)}

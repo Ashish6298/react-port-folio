@@ -93,7 +93,7 @@
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/ashish.jpg";
 import { motion } from "framer-motion";
-import resume from "../assets/myresume.pdf"
+import resume from "../assets/ASHISH_RESUME.pdf"
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },

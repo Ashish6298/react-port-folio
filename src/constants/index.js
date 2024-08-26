@@ -12,6 +12,19 @@ export const HERO_CONTENT = `I'm a front-end enthusiast with a flair for designi
 export const ABOUT_TEXT = `I'm a front-end developer with a knack for crafting visually striking, responsive web interfaces. Leveraging tools like React and Next.js, I turn concepts into sleek, intuitive user experiences that are both captivating and high-performing. Passionate about pushing the boundaries of web design, I thrive in collaborative environments where creativity meets technology to deliver exceptional digital solutions.`;
 
 export const PROJECTS = [
+
+
+  {
+    title: "Airport Car Parking",
+    image: airport,
+    description:
+      "A frontend website to book parking slot for the airport parking area based on the day and airport location with time , at what time you want to park your car with charges.",
+    technologies: ["HTML", "CSS","JS"],
+    link: ["https://airport-car-parking.vercel.app/"]
+  
+  },
+
+  
   {
     title: "E-Commerce Website",
     image: shopping,
@@ -36,15 +49,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
     link: ["https://github.com/Ashish6298/SIP_FINAL_PROJECT"]
   },
-  {
-    title: "Airport Car Parking",
-    image: airport,
-    description:
-      "A frontend website to book parking slot for the airport parking area based on the day and airport location with time , at what time you want to park your car with charges.",
-    technologies: ["HTML", "CSS","JS"],
-    link: ["https://github.com/Ashish6298/Airport_Car_Parking12"]
-  
-  },
+
   {
     title: "AI Virtual Patient",
     image: medisynth,

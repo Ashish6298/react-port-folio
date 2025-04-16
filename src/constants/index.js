@@ -1,53 +1,73 @@
-import shopping from "../assets/projects/shopping.png";
-import task from "../assets/projects/task.png";
-import rest from "../assets/projects/rest.png";
-import airport from "../assets/projects/airport.png";
+import REllMate from "../assets/projects/REllMate.png";
+import care from "../assets/projects/care.png";
+import bargain from "../assets/projects/bargain.png";
+import fileforge from "../assets/projects/fileforge.png";
 import medisynth from "../assets/projects/medisynth.jpg";
 import uiux from "../assets/projects/uiux.png";
 
 
-
-export const HERO_CONTENT = `I'm a front-end enthusiast with a flair for designing sleek and interactive web interfaces.My journey with cutting-edge technologies like React and Next.js has equipped me with the skills to not only design beautiful interfaces but also to ensure they are fast, scalable, and a joy to use.Driven by creativity and a relentless pursuit of excellence, I thrive on pushing the boundaries of what's possible on the web. I meticulously fine-tune every pixel and every line of code, ensuring that the end product is not just functional but also a masterpiece in its own right. My ultimate goal is to create digital experiences that leave a lasting impression, drive business growth, and delight users at every interaction.`;
-
-export const ABOUT_TEXT = `I'm a front-end developer with a knack for crafting visually striking, responsive web interfaces. Leveraging tools like React and Next.js, I turn concepts into sleek, intuitive user experiences that are both captivating and high-performing. Passionate about pushing the boundaries of web design, I thrive in collaborative environments where creativity meets technology to deliver exceptional digital solutions.`;
-
+export const HERO_CONTENT = `I'm a dynamic front-end developer with a passion for crafting intuitive and visually stunning user interfaces that elevate digital experiences. My expertise in Flutter, React.js, and UI/UX design allows me to build responsive, AI-driven applications, from healthcare kiosks to interactive web platforms. With a strong foundation in technologies like Node.js and REST APIs, I ensure seamless integration of front-end designs with robust backends. Driven by creativity and precision, I meticulously refine every pixel and interaction, delivering fast, scalable solutions that captivate users. My mission is to create front-end masterpieces that not only enhance usability but also drive innovation, leaving a lasting impact on users and industries alike.`;
+export const ABOUT_TEXT = `I'm a front-end developer with a passion for creating visually captivating and highly responsive user interfaces that redefine user experiences. Proficient in Flutter, React.js, and UI/UX design, I transform ideas into seamless, AI-driven applications, from intuitive hospital kiosks to dynamic web platforms. My skills in Node.js, REST APIs, and Dart enable me to bridge stunning front-end designs with robust backends, ensuring optimal performance and scalability. Thriving in collaborative settings, I blend creativity with technical precision to deliver innovative digital solutions that engage users and drive impactful results.`;
 export const PROJECTS = [
-
-
   {
-    title: "Airport Car Parking",
-    image: airport,
+    title: "FileForge: File Conversion & Manipulation Suite",
+    image: fileforge,
     description:
-      "A frontend website to book parking slot for the airport parking area based on the day and airport location with time , at what time you want to park your car with charges.",
-    technologies: ["HTML", "CSS","JS"],
-    link: ["https://airport-car-parking.vercel.app/"]
-  
+      "Welcome to FileForge, a cutting-edge, futuristic backend solution built to transform, summarize, merge, split, and rearrange your documents and media files with unparalleled ease. Powered by modern Node.js technologies and infused with AI-driven capabilities, FileForge is your portal to a seamless file-handling experience. Whether you're converting PDFs to DOCX, extracting audio from videos, or summarizing lengthy documents, FileForge has you covered—fast, secure, and futuristic.",
+    technologies: [
+      "Node.js",
+      "Express",
+      "Multer",
+      "FFmpeg",
+      "Tesseract.js",
+      "Gemini API",
+      "PDFKit",
+      "docx",
+    ],
+    link: ["https://file-forge-livid.vercel.app/"],
   },
 
-  
   {
-    title: "E-Commerce Website",
-    image: shopping,
+    title: "ReelMate",
+    image: REllMate,
     description:
-      "A e-commerce website with features like product listing, shopping cart, and product quantity.",
-    technologies: ["HTML", "CSS", "JS","Bootstrap"],
-    link: ["https://github.com/Ashish6298/Shopping-project"],
+      "ReelMate is a powerful and user-friendly app that allows you to download Instagram Reels, YouTube videos, and YouTube Shorts effortlessly. Whether you want to save videos for offline viewing or share them with friends, ReelMate makes it simple!",
+    technologies: ["flutter", "dart", "Node js", "FFmpeg", "AWS", "yt-dlp"],
+    link: ["https://github.com/Ashish6298/REELMATE/releases/tag/v1.2"],
   },
   {
-    title: "Task Management App",
-    image: task,
+    title: "CARELINK",
+    image: care,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React", "MongoDb"],
-    link: ["https://github.com/Ashish6298/TaskManager"]
+      "The Hospital Kiosk System is an interactive solution designed to streamline patient appointment booking and lab test management in a hospital setting. Patients can use the kiosk to register, book appointments with specialists based on symptoms, pay consultation fees, and manage lab tests prescribed by doctors. The system integrates with a doctor-facing mobile app called CareLink, enabling seamless communication between patients, doctors, and lab personnel.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "MongoDb",
+      "Flutter",
+      "Dart",
+      "Python",
+      "multer",
+      "Node js",
+      "websocket",
+    ],
+    link: ["https://github.com/orgs/FusionFrameworks/repositories"],
   },
   {
-    title: "Resturant Website",
-    image: rest,
+    title: "BARGAIN BOT",
+    image: bargain,
     description:
-      "A resturant website where you can see the recipies of the food, divided into veg and non-veg category and on the basis of states basis also.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    link: ["https://github.com/Ashish6298/SIP_FINAL_PROJECT"]
+      "Real-time price comparison and analysis powered by AI & web scrapers. Find the best deals in seconds! Track price history,get price drop alerts —all in one place.",
+    technologies: [
+      "React.js (MUI)",
+      "Node.js + Express",
+      "Puppeteer",
+      "MongoDB",
+      "Google Gemini AI	",
+      "Chart.js",
+    ],
+    link: ["https://bargain-bot.vercel.app/"],
   },
 
   {
@@ -55,23 +75,21 @@ export const PROJECTS = [
     image: medisynth,
     description:
       "A pivotal feature introduces an AI-generated patient exhibiting lifelike symptoms and presenting a simulated body temperature. Students should diagnose and prescribe medications, and then they receive real-time feedback with alternative suggestions through a user-friendly interface. The application will take the access of camera and microphone to get the data from students so as to provide an immersive learning experience. ",
-    technologies: ["HTML", "CSS","JS","Typescript","Python3"],
-    link: ["https://github.com/SanskariTechies/MediSynth"]
-  
+    technologies: ["HTML", "CSS", "JS", "Typescript", "Python3"],
+    link: ["https://github.com/SanskariTechies/MediSynth"],
   },
 
   {
     title: "Tetherfi Internship",
     image: uiux,
-    description: "Mobile application for customer support agents.The project aimed to develop a sophisticated backend system designed to handle user authen-tication, communication through SMS and calls, and email notifications.",
-    technologies: ["HTML", "CSS","JS","Typescript","Python3"],
-    link: ["https://github.com/SanskariTechies/MediSynth"]
-  
+    description:
+      "Mobile application for customer support agents.The project aimed to develop a sophisticated backend system designed to handle user authen-tication, communication through SMS and calls, and email notifications.",
+    technologies: ["HTML", "CSS", "JS", "Typescript", "Python3"],
+    link: ["https://github.com/SanskariTechies/MediSynth"],
   },
 ];
 
 export const CONTACT = {
-  address: "Room No. 307 Sahyadri Boy's Hostel Adyar , Mangalore ",
   phoneNo: "+91 8804339456 ",
   email: "ashishgoswami1013@gmail.com",
 };
